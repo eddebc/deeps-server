@@ -21,10 +21,21 @@ a {
 }
 
 .main-wrapper {
-    width: 55%;
-    margin: auto;
-    max-height: 240px;
-    position: relative;
+  margin: auto;
+  max-height: 240px;
+  position: relative;
+}
+
+@media screen and (max-width: 1920px) {
+  .main-wrapper {
+      width: 54%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .main-wrapper {
+      width: 73%;
+  }
 }
 
 #header-top {
